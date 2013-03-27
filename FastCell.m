@@ -38,10 +38,9 @@
         backView.opaque = YES;
         [self addSubview:backView];
         
-		contentView = [[ContentView alloc] initWithFrame:b];
-        [contentView setBackgroundColor:[UIColor redColor]];
-		contentView.opaque = YES;
-		[self addSubview:contentView];
+	contentView = [[ContentView alloc] initWithFrame:b];
+	contentView.opaque = YES;
+	[self addSubview:contentView];
     }
     return self;
 }
